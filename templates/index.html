@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form method="POST" action="/processar_formulario">
+        <label for="numeroAtomico">Numero Atômico:</label>
+        <input type="number" id="numeroAtomico" name="numeroAtomico">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="resultado">{{ resultado }}</div>
+</body>
+</html>
